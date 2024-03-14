@@ -1,0 +1,126 @@
+/* header */
+.header {
+  background-color: #131921;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* header nav */
+.navbar {
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 4;
+  font-size: 14px;
+}
+
+/* header nav .navlogo img */
+.nav__logo img {
+  width: 110px;
+  margin-top: 10px;
+}
+
+/* header nav .nav_searchbaar */
+.nav__searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header nav .left */
+.nav__left {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 0.7;
+}
+
+/* header nav .left input */
+.nav__left input {
+  width: 400px;
+  height: 38px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* header nav .left .search_icon */
+.nav__searchIcon {
+  background-color: #febd69;
+  height: 38px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+/* header nav .left input:focus */
+.nav__left input:focus {
+  border: 2px solid #febd69;
+}
+/* header nav .right */
+
+/* header nav .right .nav_btn a */
+
+/* header nav .right .nav_btn a:hover */
+
+/* header nav .right .cart_btn */
+
+/* header nav .right .cart_btn:hover */
+
+/* header nav .right .cart_btn #icon */
+
+/* header nav .right .cart_btn p */
+
+/* .right a */
+
+/* header nav .avtar */
+
+/* header nav .avtar2 */
+
+/* header .hamburgur */
+
+/* header .extrasearch */
+
+/* header .extrasearch a */
+
+/* header nav .drawer */
+
+/* @media (max-width:800px){ */
+/* header .hamburgur */
+
+/* header nav */
+
+/* header nav .right .nav_btn,
+    header nav .right .avtar2,
+    header nav .right .avtar */
+
+/* header nav .left input */
+
+/* header nav .left input::placeholder */
+
+/* header nav .right .cart_btn */
+
+/* } */
+
+/* @media (max-width:568px) */
+/* header nav .left input */
+
+/* header nav .left .search_icon */
+
+/* header nav .navlogo img */
+
+/* } */
+
+/* npm install @mui/icons-material */
