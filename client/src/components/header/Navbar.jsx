@@ -6,6 +6,8 @@ import amazonLogo from "../../assets/images/navbar/amazon_logo.png";
 
 // Material UI Imports
 import SearchIcon from "@mui/icons-material/Search";
+import { Badge, ShoppingCartIcon } from "@mui/material";
+
 
 function Navbar() {
   return (
@@ -26,10 +28,15 @@ function Navbar() {
           </div>
         </div>
         <div className="nav__right">
-          <div className="nav__signin">
+          <div className="nav__signInBtn">
             <a href="">Sign In</a>
           </div>
-          <div className="nav__cart"></div>
+          <div className="nav__cartBtn">
+            <Badge badgeContent={4} color="primary">
+              <ShoppingCartIcon id={"icon"} />
+            </Badge>
+            <p>Cart</p>
+          </div>
         </div>
       </nav>
     </header>
