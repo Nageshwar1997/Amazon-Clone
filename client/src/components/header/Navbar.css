@@ -2,7 +2,7 @@
 .header {
   background-color: #131921;
   width: 100%;
-  height: 60px;
+  height: 600px;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,12 +19,22 @@
   align-items: center;
   z-index: 4;
   font-size: 14px;
+  color: #fff;
 }
 
 /* header nav .navlogo img */
 .nav__logo img {
   width: 110px;
   margin-top: 10px;
+}
+
+.nav__selectAddress{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.7;
+  height: 100%;
 }
 
 /* header nav .nav_searchbaar */
@@ -36,6 +46,7 @@
 
 /* header nav .left */
 .nav__left {
+  height: 90%;
   border: 1px solid red;
   display: flex;
   justify-content: space-around;
@@ -45,18 +56,19 @@
 
 /* header nav .left input */
 .nav__left input {
-  width: 400px;
-  height: 38px;
+  width: 500px;
+  height: 36px;
   border: none;
   outline: none;
   padding-left: 10px;
   border-radius: 3px 0 0 3px;
+  border: 1px solid white;
 }
 
 /* header nav .left .search_icon */
 .nav__searchIcon {
   background-color: #febd69;
-  height: 38px;
+  height: 40px;
   width: 40px;
   display: flex;
   justify-content: center;
@@ -66,17 +78,57 @@
 }
 
 /* header nav .left input:focus */
-/* .nav__left input:focus {
-  border: 2px solid #febd69;
-} */
+.nav__left input:focus {
+  border-color: #febd69;
+}
 
 /* header nav .right */
+.nav__right {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  flex: 0.3;
+}
+.nav__signInBtn{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.nav__signInBtn:hover{
+  border: 1px solid white;
+}
 
 /* header nav .right .nav_btn a */
+.nav__signInBtn a{
+  color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 2px;
+    border: 1px solid #131921;
+    border-radius: 2px;
+}
 
 /* header nav .right .nav_btn a:hover */
+.nav__signInBtn a:hover{
+  color: #131921;
+}
 
 /* header nav .right .cart_btn */
+.nav__cartBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-left: 22px;
+  margin-right: 3px;
+  border-radius: 2px;
+  border: 1px solid #131921;
+}
 
 /* header nav .right .cart_btn:hover */
 

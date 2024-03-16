@@ -1,0 +1,124 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #131921;
+  position: fixed;
+  top: 0;
+  color: white;
+}
+/* Container */
+.navbar {
+  width: 99%;
+  height: 100%;
+  margin: auto;
+}
+
+/* container-header */
+.navbar_container {
+  display: flex;
+  align-items: center;
+}
+
+/* logo */
+.nav__logoContainer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.nav__amazonLogo {
+  width: 120px;
+  height: 50px;
+  background-image: url("https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311.png");
+  background-repeat: no-repeat;
+  background-position-y: -40px;
+  overflow: hidden;
+}
+.nav__logoDotIn {
+  position: relative;
+  margin-left: -12px;
+  margin-top: -10px;
+}
+.white__border {
+  border: 1.5px solid transparent;
+  height: 50px;
+}
+.white__border:hover {
+  border: 1.5px solid white;
+}
+.nav__addressContainer {
+  margin-left: 15px;
+  padding-right: 5px;
+  font-weight: 700;
+}
+.nav__address_icon {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+.nav__helloText {
+  font-size: 0.8rem;
+  padding-left: 26px;
+  margin-top: 5px;
+  color: #ccc;
+}
+.nav__locationIcon {
+  margin-right: 2px;
+}
+.nav__select {
+  width: 60px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  padding-left: 5px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(224, 220, 220);
+}
+
+.nav__searchContainer {
+    border: 1px solid transparent;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  width: 46.5%;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.nav__searchContainer:hover{
+    border: 1px solid #febd69;
+}
+.nav__searchBar {
+    width: 100%;
+}
+#searchIcon{
+    font-size: 1.7rem;
+}
+.nav__searchIcon {
+  background-color: #febd69;
+  color: #131921;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #febd69;
+  height: 40px;
+  width: 55px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.nav__searchBar{
+    border: 1px solid #febd69;
+    padding-left: 5px;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid white;
+    border-color: white;
+}
+.nav__searchBar:focus{
+    border-color: #febd69;
+}
